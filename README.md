@@ -11,7 +11,7 @@
 - **Scoring System**: Assigns scores to gene categories based on their contribution to resistance gene transfer likelihood.
 - **Excel Output**: Outputs results in a structured Excel file, including total scores and resistance transfer likelihood categories.
 
----
+
 
 ## Prerequisites
 
