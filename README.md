@@ -26,7 +26,6 @@ Ensure the following software and packages are installed:
 
 **Install the required Python libraries using**:
 
-```bash
 
 pip install pandas openpyxl
 
@@ -34,7 +33,6 @@ Installation
 
 Clone the repository:
 
-```bash
 
 Copy code
 
@@ -46,7 +44,8 @@ cd ResTransfer
 Ensure BLAST executables are added to your system PATH.
 
 ---
-Usage
+
+**Usage**
 
 Step 1: Input Preparation
 
