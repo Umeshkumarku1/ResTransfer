@@ -45,6 +45,12 @@ Copy code
 
 Ensure BLAST executables are added to your system PATH.
 
+
+The reference_db.nsq file can be accessed from this link.
+
+
+Here is the direct link to access the reference_db.nsq file: https://drive.google.com/file/d/1Tw67zxHtDQePQsi3ZtrZQoB9sqc9NFk-/view?usp=drive_link.
+
 ---
 
 
