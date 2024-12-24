@@ -75,7 +75,7 @@ Copy code
 `python ResTransfer.py`
 
 
-Script Workflow
+**Script Workflow**
 
 Run BLAST:
 
@@ -112,16 +112,17 @@ Saves results, scores, and categories to an Excel file (Gene_Counts.xlsx).
 
 **Example Workflow**
 
--Prepare the Query Genome and Reference Database:
+- Prepare the Query Genome and Reference Database:
 
--Place your genome FASTA file in the appropriate location.
+- Place your genome FASTA file in the appropriate location.
 
--Configure the reference database using makeblastdb:
+- Configure the reference database using makeblastdb:
 
 
 Copy code
 
 `makeblastdb -in reference.fasta -dbtype nucl -out reference_db`
+
 
 Run the Script:
 
