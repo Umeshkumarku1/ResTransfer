@@ -27,7 +27,8 @@ Ensure the following software and packages are installed:
 **Install the required Python libraries using**:
 
 
-pip install pandas openpyxl
+`pip install pandas openpyxl`
+
 
 Installation
 
@@ -36,18 +37,20 @@ Clone the repository:
 
 Copy code
 
-git clone https://github.com/Umeshkumarku1/ResTransfer.git
+`git clone https://github.com/Umeshkumarku1/ResTransfer.git`
 
-cd ResTransfer
+
+`cd ResTransfer`
 
 
 Ensure BLAST executables are added to your system PATH.
 
 ---
 
-**Usage**
 
-Step 1: Input Preparation
+## Usage
+
+**Step 1: Input Preparation**
 
 Prepare the input files:
 
@@ -55,14 +58,16 @@ Query genome in FASTA format (e.g., Query_Genome.fasta).
 
 Reference database for BLAST (e.g., reference_db).
 
-Step 2: Running the Pipeline
+
+**Step 2: Running the Pipeline**
 
 Run the pipeline using the script:
 
 
 Copy code
 
-python ResTransfer.py
+`python ResTransfer.py`
+
 
 Script Workflow
 
@@ -72,24 +77,28 @@ The script executes a blastn search against the reference database.
 
 Results are saved in a TSV file (blast_output.tsv).
 
-Parse BLAST Results:
+
+**Parse BLAST Results:**
 
 Filters BLAST results based on identity, query coverage, and e-value thresholds.
 
 Categorizes gene matches into predefined groups.
 
-Score and Categorize:
+
+**Score and Categorize:**
 
 Computes a total score for each query based on gene categories.
 
-Classifies results into:
 
-High chance for antibiotic resistance gene transfer.
+**Classifies results into:**
 
-Moderate chance for antibiotic resistance gene transfer.
+ - High chance for antibiotic resistance gene transfer.
 
-Low chance for antibiotic resistance gene transfer.
+ - Moderate chance for antibiotic resistance gene transfer.
 
-Export Results:
+ - Low chance for antibiotic resistance gene transfer.
+
+
+**Export Results:**
 
 Saves results, scores, and categories to an Excel file (Gene_Counts.xlsx).
