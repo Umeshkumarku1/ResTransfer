@@ -128,3 +128,33 @@ Copy code
 
 
 Check the generated Gene_Counts.xlsx for scores and resistance gene transfer categories.
+
+
+**Outputs**
+
+The pipeline generates the following outputs:
+
+-BLAST Output (blast_output.tsv): Tabular format of BLAST results.
+-Final Results (Gene_Counts.xlsx):
+-Gene counts for each category.
+-Total score for each query.
+-Resistance transfer likelihood category.
+
+
+**Troubleshooting**
+
+-BLAST Errors: Ensure BLAST is installed and added to the system PATH.
+-Missing Output File: Check input file paths and permissions.
+-Excel Not Generated: Verify input data meets filter criteria.
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+## Contact
+For issues or feedback, please reach out to:
+
+**Name: Umeshkumar KU**
+**Email: Research.umeshkumarku@gmail.com**
+**GitHub: https://github.com/Umeshkumarku1**
