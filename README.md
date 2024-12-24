@@ -140,11 +140,15 @@ Check the generated Gene_Counts.xlsx for scores and resistance gene transfer cat
 
 The pipeline generates the following outputs:
 
--BLAST Output (blast_output.tsv): Tabular format of BLAST results.
--Final Results (Gene_Counts.xlsx):
--Gene counts for each category.
--Total score for each query.
--Resistance transfer likelihood category.
+- BLAST Output (blast_output.tsv): Tabular format of BLAST results.
+  
+- Final Results (Gene_Counts.xlsx).
+  
+- Gene counts for each category.
+  
+- Total score for each query.
+  
+- Resistance transfer likelihood category.
 
 
 **Troubleshooting**
