@@ -165,7 +165,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 ## Contact
-For issues or feedback, please reach out to:
+For issues or feedback and the required documents, please reach out to:
 
 **Name: Umeshkumar KU**
 
