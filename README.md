@@ -131,7 +131,7 @@ Copy code
 
 `python ResTransfer.py`
 
-***View Results:**
+**View Results:**
 
 
 Check the generated Gene_Counts.xlsx for scores and resistance gene transfer categories.
