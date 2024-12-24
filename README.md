@@ -34,7 +34,7 @@ Installation
 
 Clone the repository:
 
-
+```bash
 
 Copy code
 
@@ -42,9 +42,10 @@ git clone https://github.com/Umeshkumarku1/ResTransfer.git
 
 cd ResTransfer
 
+
 Ensure BLAST executables are added to your system PATH.
 
-
+---
 Usage
 
 Step 1: Input Preparation
