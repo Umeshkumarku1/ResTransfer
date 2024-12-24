@@ -149,9 +149,10 @@ The pipeline generates the following outputs:
 - Total score for each query.
   
 - Resistance transfer likelihood category.
+  
 
 
-**Troubleshooting**
+## Troubleshooting
 
 -BLAST Errors: Ensure BLAST is installed and added to the system PATH.
 -Missing Output File: Check input file paths and permissions.
